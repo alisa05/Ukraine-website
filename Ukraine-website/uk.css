@@ -1,0 +1,23 @@
+
+p {
+    font-family: "BebasNeue"; 
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: rgb(11, 13, 114);
+    border-bottom-color: rgb(243, 229, 29);
+    border-left-color: rgb(243, 229, 29);
+    border-right-color: rgb(11, 13, 114);
+    background-image: linear-gradient(to bottom right, antiquewhite,rgb(233, 233, 152));
+    background-color: antiquewhite;
+    padding: 10px;
+    transform: translateX(6px);
+    transform: rotateX(10deg);
+    transform: skewX(3.5deg);
+} /*Aplikimi round corners,gradient,3d transform,border-image te faqja uk.html*/
+/*Pesha=1*/
+
+p::first-line{
+    color: rgb(17, 20, 185);
+}  /*Perdorimi pseudoelementit*/
+/*Pesha=2*/
